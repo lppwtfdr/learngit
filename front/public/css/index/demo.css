@@ -1,0 +1,123 @@
+*{margin:0;padding:0;}
+body{
+  /* background: #9b9696;    */
+}
+.discuss{
+  width: 100%;
+  height: 100%;
+  display : flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  background:#F4F4F4 100%;
+}
+.ct_discuss {
+  width: 1200px;
+  height: 100%;
+  display : flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center
+  
+}
+.ct_discuss .ct_discuss_lf {
+  width: 248px;
+  height: 1113px;
+
+}
+.ct_discuss .ct_discuss_lf ul{
+  width: 100%;
+  border-radius: 4px;
+  margin-top:5px; 
+}
+.ct_discuss .ct_discuss_lf ul li {
+  width: 100%;
+  list-style: none ;
+  text-align: center;
+  vertical-align: middle;
+  font-family: PingFangSC-Regular;
+  color: #666666;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.41px;
+
+}
+.nav-item{
+  background: #ffffff;
+}
+ .ct_discuss .ct_discuss_lf ul li:hover{
+  border-left:2px solid red; 
+  border-radius: 4px;
+} 
+.ct_discuss .ct_discuss_rt{
+  width: 942px;
+  height: 1113px;
+  padding: 5px;
+}
+.ct_discuss_rt_title{
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+}
+.ct_discuss_rt_title a{
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  margin-left: 10px;
+  color:white;
+}
+
+.discuss_lists{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+.discuss_lists>ul{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.discuss_lists ul li{
+  list-style: none;
+  width: 100%;
+  height: 70px;
+  margin-top: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.fans_avator{
+  width: 60px;
+  height:60px ;
+  border-radius: 30px;
+  background-image:url( ../../images/caselisten.png) ;
+  background-size: 100%;
+
+}
+.fans_msg{
+  width:80%;
+  height: 100%; 
+}
+.fans_msg .fans_name,.fans_msg .fans_time{
+  margin:10px;
+}
+.fans_msg .fans_time{
+  font-size:12px ;
+  color: #666666;
+}
+.give_fan{
+  width:40px ;
+  height: 40px;
+}
+.give_fan a{
+  color:#666666;
+}
+

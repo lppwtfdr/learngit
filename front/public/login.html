@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index/login.css">
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- Button trigger modal -->
+    <button type="button" id="modalBtn" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+        点击
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+
+            <div class="login-modal modal-content">
+                <!-- 左侧图片部分 -->
+                <div class="login-left">
+                    <div style="flex: 1;">
+                        <div class="login-left-logo">
+                            <img src="./images/login_logo.png" width="205px;" alt="">
+                        </div>
+                    </div>
+                    <div class="login-left-bottom">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="login-check" name="" id="" value="checkedValue" checked>
+                                <span style="font-size: 12px;color: #FFFFFF;">我已阅读并接受 </span>
+                                <span style="font-size: 12px;color: #F74444;margin-left: 4px;">用户协议 </span>
+                                <span style="font-size: 12px;color: #FFFFFF;margin-left: 4px;margin-right: 4px;">和
+                                </span>
+                                <span style="font-size: 12px;color: #F74444;">隐私政策 </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                 <!-- 左侧图片部分结束 -->
+                 <!-- 右侧登录注册 -->
+                <div class="login-right">
+                    <div class="login-right-delt">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="login-right-cont">
+                        <div style="width: 318px;">
+
+                            <nav class="nav justify-content-flex-start">
+                                <!-- <a class="nav-link " href="#" style="margin-right: 48px;">手机快捷登录</a>
+                                <a class="nav-link active" href="#">账号密码登录</a> -->
+                                <a class="nav-link " href="#" style="margin-right: 48px;">手机注册</a>
+                                <a class="nav-link active" href="#">邮箱注册</a>
+                            </nav>
+                        </div>
+                        <!-- 手机和邮箱快捷登录 -->
+                        <div class="login-right-cont-iphone">
+                            <div style=" flex: 1;">
+                                <div class="form-group">
+
+                                    <!-- <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                        placeholder="手机号"> -->
+                                    <!-- <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                        placeholder="手机/邮箱"> -->
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                        placeholder="邮箱">
+                                </div>
+                                <div class="form-group login-iphone-code">
+
+                                    <!-- <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                        placeholder="验证码">
+                                    <a name="" id="" class="login-iphone-code-pwd" href="#" role="button">获取验证码</a> -->
+                                    <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                        placeholder="密码">
+                                </div>
+                                <div style="display: flex;flex-direction:row;justify-content:space-between;">
+                                        <span style="font-size: 14px;color: #666666;letter-spacing: 0.34px;">记住我</span>
+                                        <span style="font-size: 14px;color: #666666;letter-spacing: 0.34px;">找回密码</span>
+                                    </div>
+                            </div>
+                            <!-- <button type="button" name="" id="" class="btn btn-primary btn-login" btn-lg
+                                btn-block>登录</button> -->
+                            <button type="button" name="" id="" class="btn btn-primary btn-login" btn-lg
+                                btn-block>注册</button>
+                        </div>
+                        <!-- 手机和邮箱快捷登录结束 -->
+
+                    </div>
+                    <div class="login-right-bot">
+
+                        <!-- <span style="font-size: 15px;color: #9B9B9B;">还没有账号，去注册</span> -->
+                        <span style="font-size: 15px;color: #9B9B9B;">已有账号，去登录</span>
+                        <!-- <button type="button" name="" id="" class="btn btn-primary btn-register" btn-lg
+                            btn-block>注册</button> -->
+                        <button type="button" name="" id="" class="btn btn-primary btn-register" btn-lg
+                            btn-block>登录</button>
+                    </div>
+                </div>
+                <!-- 右侧登录注册结束 -->
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script type="text/javascript">
+        $(function () {
+            // dom加载完毕
+            var $m_btn = $('#modalBtn');
+            var $modal = $('#modelId');
+            $m_btn.on('click', function () {
+                $modal.modal({
+                    backdrop: 'static'
+                });
+            });
+
+            // 测试 bootstrap 居中
+            $modal.on('show.bs.modal', function () {
+                var $this = $(this);
+                var $modal_dialog = $this.find('.modal-dialog');
+                // 关键代码，如没将modal设置为 block，则$modala_dialog.height() 为零
+                $this.css('display', 'block');
+                $modal_dialog.css({
+                    'margin-top': Math.max(0, ($(window).height() - $modal_dialog.height()) / 2)
+                });
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

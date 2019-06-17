@@ -1,0 +1,51 @@
+*{
+    font-family: PingFangSC-Regular;
+    font-size:14px;
+}
+.container{
+
+}
+.row{
+    margin-top:42px; 
+}
+.work-details{
+    width: 860px;
+    height:295px;
+    background: #FDFDFD;    
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    padding: 20px;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+    width: 94%;
+}
+ .select_li{
+    list-style: none;
+    width: 71px;
+    height:24px;
+    text-align: center;
+    border-radius: 2px;
+    margin: 2px;
+}
+/*  */
+.select_li:hover{
+    background: #F25C62;
+    color: #D9D9D9;
+}
+
+
+.row{
+    /* border: .1px solid royalblue; */
+    /* width: 1200px; */
+}
+.logo{
+    width: 186px; 
+    height: 48px;
+}
+.active{
+    background:#F25C62;
+    color: aliceblue;
+}

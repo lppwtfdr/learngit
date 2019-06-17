@@ -1,0 +1,95 @@
+.caselibrary-detail {
+  width: 1200px;
+}
+.caselibrary-detail .caselibrary-top {
+  width: 100%;
+}
+.caselibrary-detail .caselibrary-top .caselibrary-top-kind {
+  width: 82px;
+  height: 25px;
+  background: #F25C62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 14px 14px 0;
+  margin-top: 10px;
+}
+.caselibrary-detail .caselibrary-top .caselibrary-top-kind-list {
+  width: 92px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.caselibrary-detail .caselibrary-works .caselibrary-works-list {
+  width: 286px;
+  height: 379px;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.caselibrary-detail .caselibrary-works .caselibrary-works-list .caselibrary-works-list-img {
+  width: 286px;
+  height: 249px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.caselibrary-detail .caselibrary-works .caselibrary-works-list .caselibrary-works-list-middle {
+  width: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.caselibrary-detail .caselibrary-works .caselibrary-works-list .caselibrary-works-list-middle .caselibrary-works-list-text {
+  font-size: 18px;
+  color: #666666;
+}
+.caselibrary-detail .caselibrary-works .caselibrary-works-list .caselibrary-works-list-bottom {
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.caselibrary-detail .caselibrary-works .caselibrary-works-list .caselibrary-works-list-bottom span {
+  font-size: 12px;
+  color: #999999;
+  margin-right: 10px;
+}
+.caselibrary-detail .supplier-intro {
+  width: 100%;
+}
+.caselibrary-detail .supplier-intro .supplier-intro-img {
+  width: 100%;
+  height: 146px;
+  background: pink;
+}
+.caselibrary-detail .supplier-intro .supplier-intro-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.caselibrary-detail .supplier-intro .supplier-intro-cont .supplier-intro-imgchild {
+  position: absolute;
+  left: 13px;
+  top: -30px;
+  width: 198px;
+  height: 198px;
+  background: #F8B300;
+}
+.caselibrary-detail .supplier-intro .supplier-intro-cont .supplier-intro-cont-text {
+  font-size: 16px;
+  color: #9E9E9E;
+  margin-top: 10px;
+}
+.caselibrary-detail .supplier-intro .supplier-intro-cont .supplier-intro-cont-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.caselibrary-detail .supplier-intro .supplier-intro-cont .supplier-intro-cont-right div {
+  margin-left: 26px;
+}

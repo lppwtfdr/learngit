@@ -1,0 +1,140 @@
+.login-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 800px;
+  height: 450px;
+  margin-left: -260px;
+  background: #ffffff;
+}
+.login-modal .login-left {
+  width: 376px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../images/login_bc.png');
+}
+.login-modal .login-left .login-left-logo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.login-modal .login-left .login-left-bottom {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.login-modal .login-left .login-left-bottom .form-check-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.login-modal .login-left .login-left-bottom .form-check-label .login-check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 6px;
+  width: 17px;
+  height: 17px;
+}
+.login-modal .login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-modal .login-right .login-right-delt {
+  width: 100%;
+}
+.login-modal .login-right .login-right-delt .modal-header {
+  border-bottom: none;
+}
+.login-modal .login-right .login-right-cont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-modal .login-right .login-right-cont .form-group {
+  width: 318px;
+  border: none;
+  border-bottom: 2px solid #EFEFEF;
+  height: 60px;
+}
+.login-modal .login-right .login-right-cont .form-group .form-control {
+  flex: 1;
+  border: none;
+  height: 57px;
+  font-size: 14px;
+  padding-left: 0px;
+}
+.login-modal .login-right .login-right-cont .login-right-cont-iphone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.login-modal .login-right .login-right-cont .login-iphone-code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.login-modal .login-right .login-right-cont .login-iphone-code .login-iphone-code-pwd {
+  font-size: 14px;
+  color: #FF4D5C;
+  letter-spacing: 0.38px;
+  padding-left: 31px;
+  border-left: 2px solid #EFEFEF;
+}
+.login-modal .login-right .login-right-cont .btn-login {
+  background-color: #F25C62;
+  border-color: #F25C62;
+  width: 253px;
+  height: 42px;
+  border-radius: 24px;
+  margin-bottom: 42px;
+}
+.login-modal .login-right .login-right-bot {
+  width: 100%;
+  height: 48px;
+  background: #F3F7F7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 55px;
+  padding-right: 8px;
+}
+.login-modal .login-right .login-right-bot .btn-register {
+  border: 1px solid #F25C62;
+  background: #F3F7F7;
+  font-size: 14px;
+  color: #F25C62;
+  border-radius: 0;
+  width: 94px;
+  height: 36px;
+}
+.modal-content {
+  border: none;
+  border-radius: 0px;
+}
+.nav .nav-link {
+  font-size: 16px;
+  color: #F25C62;
+  letter-spacing: 0.47px;
+  padding: 0px;
+}
+.nav .active {
+  display: inline-block;
+  border-bottom: 3px solid red;
+  padding-bottom: 8px;
+}

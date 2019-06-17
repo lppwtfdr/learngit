@@ -1,0 +1,121 @@
+.case-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 34px;
+
+    .case-detail-left {
+        width: 723px;
+        height: auto;
+
+        // 标题摘要
+        .detail-title {
+            width: 100%;
+
+            .detail-title-right {
+                font-size: 12px;
+                color: #999999;
+                letter-spacing: 0.31px;
+                margin-left: 10px;
+            }
+        }
+
+        // 评论区
+        .detail-remark {
+            .detail-remark-text {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 20px;
+
+                .detail-remark-img {
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid #d4d4d4;
+                    border-radius: 50%;
+                    margin-right: 34px;
+                }
+
+                .detail-remark-input {
+                    width: 100%;
+                    height: 140px;
+                    border: 1px solid #d4d4d4;
+                }
+
+                .btn-remark {
+                    width: 160px;
+                    height: 40px;
+                    font-size: 18px;
+                    color: #999999;
+                    font-weight: bold;
+                    border: 1px solid #d4d4d4;
+                    margin-top: 30px;
+                    border-radius: none;
+                }
+            }
+        }
+
+        // 点赞区
+        .btn-giveup {
+            width: 64px;
+            height: 30px;
+            background-image: linear-gradient(-180deg, #FA959B 0%, #F25C62 100%);
+            border-radius: 31px;
+            color: #FFFFFF;
+        }
+    }
+
+    // 用户介绍
+    .case-detail-right {
+        width: 434px;
+        height: auto;
+
+        .detail-user {
+            width: 100%;
+            height: 345px;
+            background: #FFFFFF;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.04), 0 20px 30px 0 rgba(0, 0, 0, 0.06);
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: 60px;
+            margin-bottom: 34px;
+            position: relative;
+
+            .detail-user-intro {
+                font-size: 18px;
+                color: #4A4A4A;
+                margin-bottom: 24px;
+            }
+
+            .detail-user-intro-img {
+                position: absolute;
+                left: 50%;
+                top: -58px;
+                margin-left: -62px;
+                width: 124px;
+                height: 124px;
+                background: pink;
+                border-radius: 50%;
+            }
+
+            .btn-focus {
+                // background: #F25C62;
+                box-shadow: 0 8px 32px 0 rgba(242, 92, 98, 0.42);
+                border-radius: 25px;
+                width: 125px;
+                height: 50px;
+                font-size: 24px;
+                color: #FFFFFF;
+                margin-top: 53px;
+                margin-bottom: 53px;
+            }
+        }
+    }
+
+    
+}
